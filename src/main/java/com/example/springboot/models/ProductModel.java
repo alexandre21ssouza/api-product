@@ -16,4 +16,34 @@ public class ProductModel implements Serializable {
     private UUID idProduct;
     private String name;
     private BigDecimal VALUE;
+
+
+    public ProductModel() {
+    }
+
+    public UUID getIdProduct() {
+        return idProduct;
+    }
+
+    public void setIdProduct(UUID idProduct) {
+        this.idProduct = idProduct;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public BigDecimal getVALUE() {
+        return VALUE;
+    }
+
+    public void setVALUE(BigDecimal VALUE) {
+        this.VALUE = VALUE;
+    }
 }
+
+
