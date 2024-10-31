@@ -37,12 +37,13 @@ public class ProductModel implements Serializable {
         this.name = name;
     }
 
-    public BigDecimal getVALUE() {
-        return VALUE;
+    public BigDecimal getValue() {
+        return value;
     }
 
-    public void setVALUE(BigDecimal VALUE) {
-        this.VALUE = VALUE;
+    public void setValue(BigDecimal value) {
+
+        this.value = value;
     }
 }
 
